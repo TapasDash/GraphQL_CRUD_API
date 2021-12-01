@@ -1,0 +1,24 @@
+{
+  "name": "graphqlapi",
+  "version": "1.0.0",
+  "description": "It is a basic GRAPH QL API to brush up my graphql skills",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tapas Dash",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.24.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "graphql": "^15.5.0",
+    "helmet": "^4.6.0",
+    "mongoose": "^5.12.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
